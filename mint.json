@@ -7,12 +7,12 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#8B5CF6",
-    "light": "#07C983",
-    "dark": "#8B5CF6",
+    "primary": "#D946EF",
+    "light": "#D946EF",
+    "dark": "#D946EF",
     "anchors": {
-      "from": "#8B5CF6",
-      "to": "#07C983"
+      "from": "#A21CAF",
+      "to": "#E879F9"
     }
   },
   "topbarLinks": [
@@ -29,6 +29,10 @@
     {
       "name": "API Reference",
       "url": "api-reference"
+    },
+    {
+      "name": "Third Test Tab",
+      "url": "test-tab"
     }
   ],
   "anchors": [
@@ -75,6 +79,10 @@
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete"
       ]
+    },
+    {
+      "group": "Test Test",
+      "pages": ["test-tab/introduction"]
     }
   ],
   "footerSocials": {
